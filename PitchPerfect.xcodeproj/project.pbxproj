@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40C78021D36B96F001C8078 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C78011D36B96F001C8078 /* PlaySoundsViewController+Audio.swift */; };
 		F42864A81D353AFD004689CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42864A71D353AFD004689CE /* AppDelegate.swift */; };
-		F42864AA1D353AFD004689CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42864A91D353AFD004689CE /* ViewController.swift */; };
+		F42864AA1D353AFD004689CE /* AudioRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42864A91D353AFD004689CE /* AudioRecordingViewController.swift */; };
 		F42864AD1D353AFD004689CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42864AB1D353AFD004689CE /* Main.storyboard */; };
 		F42864AF1D353AFD004689CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42864AE1D353AFD004689CE /* Assets.xcassets */; };
 		F42864B21D353AFD004689CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42864B01D353AFD004689CE /* LaunchScreen.storyboard */; };
 		F42864BD1D353AFE004689CE /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42864BC1D353AFE004689CE /* PitchPerfectTests.swift */; };
 		F42864C81D353AFE004689CE /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42864C71D353AFE004689CE /* PitchPerfectUITests.swift */; };
+		F49B137C1D365B8C00F1E20B /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B137B1D365B8C00F1E20B /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F40C78011D36B96F001C8078 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		F42864A41D353AFD004689CE /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42864A71D353AFD004689CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F42864A91D353AFD004689CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F42864A91D353AFD004689CE /* AudioRecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingViewController.swift; sourceTree = "<group>"; };
 		F42864AC1D353AFD004689CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F42864AE1D353AFD004689CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42864B11D353AFD004689CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		F42864C31D353AFE004689CE /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42864C71D353AFE004689CE /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		F42864C91D353AFE004689CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49B137B1D365B8C00F1E20B /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				F42864A71D353AFD004689CE /* AppDelegate.swift */,
-				F42864A91D353AFD004689CE /* ViewController.swift */,
+				F42864A91D353AFD004689CE /* AudioRecordingViewController.swift */,
 				F42864AB1D353AFD004689CE /* Main.storyboard */,
+				F49B137B1D365B8C00F1E20B /* PlaySoundsViewController.swift */,
+				F40C78011D36B96F001C8078 /* PlaySoundsViewController+Audio.swift */,
 				F42864AE1D353AFD004689CE /* Assets.xcassets */,
 				F42864B01D353AFD004689CE /* LaunchScreen.storyboard */,
 				F42864B31D353AFD004689CE /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42864AA1D353AFD004689CE /* ViewController.swift in Sources */,
+				F49B137C1D365B8C00F1E20B /* PlaySoundsViewController.swift in Sources */,
+				F40C78021D36B96F001C8078 /* PlaySoundsViewController+Audio.swift in Sources */,
+				F42864AA1D353AFD004689CE /* AudioRecordingViewController.swift in Sources */,
 				F42864A81D353AFD004689CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +490,7 @@
 				F42864CE1D353AFE004689CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F42864CF1D353AFE004689CE /* Build configuration list for PBXNativeTarget "PitchPerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				F42864D11D353AFE004689CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F42864D21D353AFE004689CE /* Build configuration list for PBXNativeTarget "PitchPerfectUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				F42864D41D353AFE004689CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
